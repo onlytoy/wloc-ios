@@ -16,6 +16,8 @@ https://raw.githubusercontent.com/onlytoy/wloc-ios/refs/heads/main/modules/wloc.
 **Quantumult X:**
 https://raw.githubusercontent.com/onlytoy/wloc-ios/refs/heads/main/modules/wloc.conf
 
+在 Quantumult X 的「重写 → 引用」里添加该地址，开启重写和 MitM，然后打开 [选点页面](https://ios.009080.xyz/) 选位置并点击「储存到设备」。Quantumult X 使用设备已保存的坐标，小火箭模块的默认参数不会随重写订阅导入。
+
 **Loon:**
 https://raw.githubusercontent.com/onlytoy/wloc-ios/refs/heads/main/modules/wloc.lpx
 
@@ -175,7 +177,7 @@ https://raw.githubusercontent.com/onlytoy/wloc-ios/refs/heads/main/modules/wloc.
 
 公共选点页面有请求上限，建议部署自己的实例：
 
-- **选点页面**: `https://wloc-spoofer.only.workers.dev/`
+- **选点页面**: [ios.009080.xyz](https://ios.009080.xyz/)
 - **解析接口**: `https://wloc-spoofer.only.workers.dev/api/parse`
 
 **一键部署（Workers）：**
